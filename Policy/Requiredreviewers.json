@@ -1,0 +1,26 @@
+{
+    "isEnabled": true,
+    "isBlocking": true,
+    "isDeleted": false,
+    "settings": {
+        "requiredReviewerIds": [
+            "<id>"
+        ],
+        "message": "With this commit you are about the change the Dockerfile, azure-pipelines.yml and chart folder, are you sure?",
+        "scope": [
+            {
+                "refName": "refs/heads/master",
+                "matchKind": "Exact",
+                "repositoryId": "$(repositoryId)"
+            }
+        ],
+        "filenamePatterns": [
+            "/chart/*",
+            "/azure-pipelines.yml",
+            "/Dockerfile.tpl"
+        ]
+    },
+    "type": {
+        "id": "fd2167ab-b0be-447a-8ec8-39368250530e"
+    }
+}

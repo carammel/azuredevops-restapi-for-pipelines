@@ -1,0 +1,21 @@
+{
+    "isEnabled": true,
+    "isBlocking": true,
+    "isDeleted": false,
+    "settings": {
+        "buildDefinitionId": "$(builddefid)",
+        "queueOnSourceUpdateOnly": true,
+        "manualQueueOnly": false,
+        "validDuration": 720.0,
+        "scope": [
+            {
+                "refName": "refs/heads/$(branchName)",
+                "matchKind": "Exact",
+                "repositoryId": "$(repositoryId)"
+            }
+        ]
+    },
+    "type": {
+        "id": "0609b952-1397-4640-95ec-e00a01b2c241"
+    }
+}

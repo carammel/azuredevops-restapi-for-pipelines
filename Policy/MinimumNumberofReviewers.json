@@ -1,0 +1,21 @@
+{
+    "isEnabled": true,
+    "isBlocking": true,
+    "isDeleted": false,
+    "settings": {
+        "minimumApproverCount": 1,
+        "creatorVoteCounts": false,
+        "allowDownvotes": false,
+        "resetOnSourcePush": true,
+        "scope": [
+            {
+                "refName": "refs/heads/$(branchName)",
+                "matchKind": "Exact",
+                "repositoryId": "$(repositoryId)"
+            }
+        ]
+    },
+    "type": {
+        "id": "fa4e907d-c16b-4a4c-9dfa-4906e5d171dd"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "isEnabled": true,
+    "isBlocking": true,
+    "isDeleted": false,
+    "settings": {
+        "scope": [
+            {
+                "refName": "refs/heads/$(branchName)",
+                "matchKind": "Exact",
+                "repositoryId": "$(repositoryId)"
+            }
+        ]
+    },
+    "type": {
+        "id": "c6a1889d-b943-4856-b76f-9e46bb6b0df2"
+    }
+}
