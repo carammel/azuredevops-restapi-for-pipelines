@@ -6,7 +6,7 @@
         "requiredReviewerIds": [
             "<id>"
         ],
-        "message": "With this commit you are about the change the Dockerfile, azure-pipelines.yml and chart folder, are you sure?",
+        "message": "With this commit you are about the change the Dockerfile, helm_values.yaml, azure-pipelines.yml and chart folder, are you sure?",
         "scope": [
             {
                 "refName": "refs/heads/master",
@@ -17,7 +17,8 @@
         "filenamePatterns": [
             "/chart/*",
             "/azure-pipelines.yml",
-            "/Dockerfile.tpl"
+            "/Dockerfile",
+            "/helm_values.yaml"
         ]
     },
     "type": {
